@@ -1,0 +1,11 @@
+prefix=/home/dev/feedback/uid38802/artifacts/local
+exec_prefix=/home/dev/feedback/uid38802/artifacts/local
+libdir=/home/dev/feedback/uid38802/artifacts/local/lib
+includedir=/home/dev/feedback/uid38802/artifacts/local/include
+
+Name: libcap
+Description: libcap - linux capabilities library
+Version: 2.75
+Libs: -L${libdir} -lcap
+Libs.private: 
+Cflags: -I${includedir}

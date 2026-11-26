@@ -1,0 +1,11 @@
+prefix=/home/dev/feedback/uid38802/artifacts/local
+exec_prefix=/home/dev/feedback/uid38802/artifacts/local
+libdir=/home/dev/feedback/uid38802/artifacts/local/lib
+includedir=/home/dev/feedback/uid38802/artifacts/local/include
+
+Name: libpsx
+Description: libpsx - linux posix syscall API for threads
+Version: 2.75
+Libs: -L${libdir} -Wl,--no-as-needed -Wl,--whole-archive -lpsx -Wl,--no-whole-archive -Wl,--as-needed -lpthread
+Libs.private: 
+Cflags: -I${includedir}

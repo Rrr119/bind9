@@ -1,0 +1,17 @@
+; This is the state of key 21875, for example.net.
+Algorithm: 13
+Length: 256
+Lifetime: 200
+Predecessor: 51726
+KSK: no
+ZSK: yes
+Generated: 20261126015408 (Thu Nov 26 09:54:08 2026)
+Published: 20261126015408 (Thu Nov 26 09:54:08 2026)
+Active: 20261126015509 (Thu Nov 26 09:55:09 2026)
+Retired: 20261126015829 (Thu Nov 26 09:58:29 2026)
+Removed: 20261126020030 (Thu Nov 26 10:00:30 2026)
+DNSKEYChange: 20261126015509 (Thu Nov 26 09:55:09 2026)
+ZRRSIGChange: 20261126015609 (Thu Nov 26 09:56:09 2026)
+DNSKEYState: omnipresent
+ZRRSIGState: omnipresent
+GoalState: omnipresent

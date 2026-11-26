@@ -1,0 +1,21 @@
+; This is the state of key 36607, for example.org.
+Algorithm: 13
+Length: 256
+Lifetime: 200
+Successor: 19683
+KSK: yes
+ZSK: no
+Generated: 20261126015149 (Thu Nov 26 09:51:49 2026)
+Published: 20261126015149 (Thu Nov 26 09:51:49 2026)
+Active: 20261126015149 (Thu Nov 26 09:51:49 2026)
+Retired: 20261126015509 (Thu Nov 26 09:55:09 2026)
+Removed: 20261126015610 (Thu Nov 26 09:56:10 2026)
+PublishCDS: 20261126015250 (Thu Nov 26 09:52:50 2026)
+DeleteCDS: 20261126015610 (Thu Nov 26 09:56:10 2026)
+DNSKEYChange: 20261126015250 (Thu Nov 26 09:52:50 2026)
+KRRSIGChange: 20261126015250 (Thu Nov 26 09:52:50 2026)
+DSChange: 20261126015509 (Thu Nov 26 09:55:09 2026)
+DNSKEYState: omnipresent
+KRRSIGState: omnipresent
+DSState: unretentive
+GoalState: hidden

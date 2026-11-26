@@ -19343,10 +19343,12 @@ zone_rekey(dns_zone_t *zone) {
 		 * or to 'dnssec-loadkeys-interval' seconds in the future
 		 * if no next key event is scheduled (nexttime == 0).
 		 */
-		if (nexttime > 0) {
-			nexttime_seconds = nexttime - now;
-		} else {
+		if (nexttime == 0) {
 			nexttime_seconds = zone->refreshkeyinterval;
+		} else if (nexttime <= now) {
+			nexttime_seconds = 0;
+		} else {
+			nexttime_seconds = nexttime - now;
 		}
 
 		DNS_ZONE_TIME_ADD(&timenow, nexttime_seconds, &timenext);

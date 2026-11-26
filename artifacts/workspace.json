@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid38802",
+  "B": "/home/dev/feedback/uid38802",
+  "sha": "3402ae3b0d861bd5f3aa7c45788e9886ecf94d9b",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "isc-projects",
+    "repo": "bind9",
+    "sha": "3402ae3b0d861bd5f3aa7c45788e9886ecf94d9b"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "bind9",
+    "cloneUrl": "https://github.com/Rrr119/bind9.git"
+  },
+  "at": "2026-11-26T01:30:18.629Z"
+}

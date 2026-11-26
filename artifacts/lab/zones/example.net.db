@@ -1,0 +1,5 @@
+$TTL 30
+@   IN SOA ns1.example.net. admin.example.net. ( 1 30 30 60 30 )
+@   IN NS  ns1.example.net.
+ns1 IN A   127.0.0.1
+www IN A   127.0.0.2
